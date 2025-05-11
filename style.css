@@ -72,7 +72,12 @@ nav .logo h1 {
 
 
 .hero {
-    background: #4caf50;
+    background: #00B4DB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     height: 100vh;
     display: flex;
@@ -96,14 +101,32 @@ nav .logo h1 {
 
 .hero p {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+}
+
+.click {
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    margin-right: 40px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.click:hover {
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: 0.2s;
+    background-color: #5cba7d;
 }
 
 .hero .btn {
     background-color: #333;
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 70px;
     font-size: 18px;
     border-radius: 5px;
 }
@@ -398,7 +421,15 @@ footer p {
 
     }
 
-    .hero-content a {
+    .hero-content {
+        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
         /*  pending code  */
     }
 
@@ -427,6 +458,50 @@ footer p {
         transition: 0.1s;
         transform: scale(1.1);
     }
+
+    .click {
+        width: 260px;
+        margin-right: 0px;
+        padding: 10px 10px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    .click:hover {
+        cursor: pointer;
+        color: white;
+        background: #00B4DB;
+        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+        background: linear-gradient(to right, #0083B0, #00B4DB);
+        transition: 0.3s;
+        transform: scale(1.1);
+    }
+
+    .hero .btn {
+        position: absolute;
+        top: 190px;
+        left: 100px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    .hero .btn:hover {
+        cursor: pointer;
+        color: white;
+        background: #00B4DB;
+        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+        background: linear-gradient(to right, #0083B0, #00B4DB);
+        transition: 0.3s;
+        transform: scale(1.1);
+    }
+
 
 
     .about h2 {
