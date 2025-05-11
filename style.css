@@ -59,7 +59,13 @@ nav .logo h1 {
 }
 
 .nav-links a:hover {
-    background-color: #5cba7d;
+    cursor: pointer;
+    color: white;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    transition: 0.1s;
+    transform: scale(1.1);
     border-radius: 5px;
 }
 
@@ -117,9 +123,12 @@ nav .logo h1 {
 
 .click:hover {
     cursor: pointer;
-    transform: scale(0.1);
-    transition: 0.2s;
-    background-color: #5cba7d;
+    color: white;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    transition: 0.1s;
+    transform: scale(1.1);
 }
 
 .hero .btn {
@@ -132,7 +141,13 @@ nav .logo h1 {
 }
 
 .hero .btn:hover {
-    background-color: #5cba7d;
+    cursor: pointer;
+    color: white;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    transition: 0.1s;
+    transform: scale(1.1);
 }
 
 
@@ -209,6 +224,17 @@ nav .logo h1 {
     font-size: 16px;
 }
 
+.service-card:hover {
+    cursor: pointer;
+    color: white;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+
 /*   SERVICE CARD 01  */
 
 
@@ -232,6 +258,17 @@ nav .logo h1 {
 .service-card1 p {
     font-size: 16px;
 }
+
+.service-card1:hover {
+    cursor: pointer;
+    color: white;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
 
 
 
@@ -259,6 +296,17 @@ nav .logo h1 {
 .service-card2 p {
     font-size: 16px;
 }
+
+.service-card2:hover {
+    cursor: pointer;
+    color: white;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
 
 
 
@@ -336,7 +384,7 @@ footer p {
 
 
 
-/* MEDIA QUREY */
+/* MEDIA QUREY on Mobile phone width : 430 PX  */
 
 
 
@@ -483,7 +531,7 @@ footer p {
     .hero .btn {
         position: absolute;
         top: 190px;
-        left: 70px;
+        left: 76px;
         background-color: #333;
         color: white;
         text-decoration: none;
@@ -503,7 +551,6 @@ footer p {
     }
 
 
-
     .about h2 {
         font-size: 20px;
     }
@@ -518,8 +565,6 @@ footer p {
         justify-content: center;
         align-items: start;
         flex-wrap: nowrap;
-
-
     }
 
     .service-card {
