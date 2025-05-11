@@ -476,14 +476,14 @@ footer p {
         background: #00B4DB;
         background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
         background: linear-gradient(to right, #0083B0, #00B4DB);
-        transition: 0.3s;
+        transition: 0.1s;
         transform: scale(1.1);
     }
 
     .hero .btn {
         position: absolute;
         top: 190px;
-        left: 100px;
+        left: 180px;
         background-color: #333;
         color: white;
         text-decoration: none;
@@ -498,7 +498,7 @@ footer p {
         background: #00B4DB;
         background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
         background: linear-gradient(to right, #0083B0, #00B4DB);
-        transition: 0.3s;
+        transition: 0.1s;
         transform: scale(1.1);
     }
 
