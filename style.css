@@ -904,7 +904,7 @@ footer p {
         height: 100vh;
         display: flex;
         justify-content: center;
-        padding-top: 520px;
+        padding-top: 200px;
         align-items: center;
         flex-direction: column;
         padding-bottom: 400px;
@@ -926,7 +926,7 @@ footer p {
         height: 100vh;
         display: flex;
         justify-content: center;
-        padding-top: 550px;
+        padding-top: 200px;
         align-items: center;
         flex-direction: column;
         padding-bottom: 300px;
