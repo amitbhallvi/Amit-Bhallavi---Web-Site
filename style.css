@@ -85,7 +85,7 @@ nav .logo h1 {
     background: linear-gradient(to right, #0083B0, #00B4DB);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
-    height: 100vh;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,10 +160,6 @@ nav .logo h1 {
 
 
 
-
-
-
-
 .about {
     padding: 40px 20px;
     background: #f4f4f4;
@@ -178,6 +174,347 @@ nav .logo h1 {
 .about p {
     font-size: 18px;
 }
+
+
+/* MY ALL PROJECTS  */
+
+
+
+.projects {
+    width: 100%;
+    height: 250px;
+    padding-top: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    position: relative;
+
+
+
+}
+
+.heading-h1 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    /* left: 50px; */
+
+
+}
+
+.heading-h1 h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    /* text-decoration: ; */
+}
+
+.heading-h1 h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    /* text-decoration: ; */
+}
+
+
+.p-1 {
+    width: 350px;
+    height: 168px;
+    /* background-color: #0083B0; */
+    /* background-image: url("/NETFLIX.png");
+    background-size: cover;
+    background-position: center; */
+
+}
+
+.p-1 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+.p-1 img {
+    width: 350px;
+    height: 168px;
+    border: 1px solid black;
+
+}
+
+.p-2 {
+    width: 350px;
+    height: 168px;
+    /* background-color: #182529; */
+}
+
+.p-2 img {
+    width: 350px;
+    height: 168px;
+    border: 1px solid black;
+
+
+
+}
+
+.p-2 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+.p-3 {
+    width: 350px;
+    height: 168px;
+    background-color: #101010;
+    border: 1px solid black;
+
+}
+
+.p-3 img {
+    width: 310px;
+    height: 168px;
+
+}
+
+.p-3:hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+.p-4 {
+    width: 350px;
+    height: 168px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+
+}
+
+.p-4 img {
+    width: 225px;
+    height: 168px;
+
+}
+
+.p-4:hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+
+/*  PROJECTS -01 SECTION HARE  */
+
+.projects-01 {
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+
+
+}
+
+.heading-h2 {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+
+
+}
+
+.heading-h2 p {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    /* text-decoration: ; */
+}
+
+
+.p-5 {
+    width: 225px;
+    height: 100px;
+    background-color: white;
+}
+
+.p-5 img {
+    width: 225px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+.p-5:hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+.p-6 {
+    width: 225px;
+    height: 100px;
+    background-color: #FFFFFF;
+
+
+
+}
+
+.p-6 img {
+    width: 225px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+.p-6 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+
+.p-7 {
+    width: 225px;
+    height: 100px;
+    /* background-color: #b0003b; */
+
+
+}
+
+.p-7 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+.p-7 img {
+    width: 225px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+.p-8 {
+    width: 225px;
+    height: 100px;
+    /* background-color: #8ab000; */
+
+}
+
+.p-8 img {
+    width: 225px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+.p-8 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+
+.p-9 {
+    width: 225px;
+    height: 100px;
+    /* background-color: #6a756a; */
+}
+
+.p-9 img {
+    width: 225px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+.p-9 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+.p-10 {
+    width: 225px;
+    height: 100px;
+    /* background-color: #00b009; */
+}
+
+.p-10 img {
+    width: 225px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+.p-10 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+
+/* FIGMA SECTION  */
+
+
+.p-11 {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    /* background-color:black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p-11 img {
+    width: 225px;
+    height: 100px;
+    /* color: white; */
+    background-color: white;
+    border: 1px solid black;
+
+
+}
+
+.p-11 :hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+
+
+
+
 
 
 
@@ -494,7 +831,7 @@ footer p {
 
     .hero .btn {
         font-size: 12px;
-        margin-bottom: 300px
+        margin-bottom: 225px
     }
 
     .hero .btn:hover {
@@ -550,6 +887,48 @@ footer p {
         transform: scale(1.1);
     }
 
+    /* PROJECTS SECTION HARE  */
+
+    .projects {
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 520px;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 400px;
+
+    }
+
+    .p-1 .p-2 .p-3 .p-4 .p-5 .p-6 .p-7 .p-8 .p-9 .p-10 .p-11 :hover {
+        cursor: pointer;
+        /* color: black; */
+        background: #00B4DB;
+        /* background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+        background: linear-gradient(to right, #0083B0, #00B4DB); */
+        transition: 0.1s;
+        transform: scale(1.1);
+    }
+
+    .projects-01 {
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 550px;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 300px;
+
+
+
+
+    }
+
+
+
+    /*  about section */
 
     .about h2 {
         font-size: 20px;
@@ -568,7 +947,7 @@ footer p {
     }
 
     .service-card {
-        width: 300px;
+        width: 225px;
         text-align: center;
         background-color: #33333317;
 
@@ -595,7 +974,7 @@ footer p {
 
 
     .service-card1 {
-        width: 300px;
+        width: 225px;
         text-align: center;
         background-color: #33333317;
 
@@ -623,7 +1002,7 @@ footer p {
     }
 
     .service-card2 {
-        width: 300px;
+        width: 225px;
         text-align: center;
         background-color: #33333317;
 
