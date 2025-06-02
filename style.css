@@ -726,6 +726,16 @@ footer p {
 
 
 @media(max-width:430px) {
+    .body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
     .hero {
         height: 360px;
 
@@ -890,7 +900,7 @@ footer p {
     /* PROJECTS SECTION HARE  */
 
     .projects {
-        width: 100vh;
+        width: 100%;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -912,7 +922,7 @@ footer p {
     }
 
     .projects-01 {
-        width: 100vh;
+        width: 100%;
         height: 100vh;
         display: flex;
         justify-content: center;
