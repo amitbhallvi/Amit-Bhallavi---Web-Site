@@ -5,21 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Amit Infotech </title>
+    <title>Amit Info.cv</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header / Navigation -->
-
-
+    <!-- ===================== Header / Navigation ===================== -->
     <header>
         <nav>
-            <div class="logo">
-                <h1>&nbsp; Amit Bhallavi </h1>
+            <div class="nav-top">
+                <div class="logo">
+                    <h1>&nbsp; Amit Bhallavi </h1>
+                </div>
+                <!-- Hamburger for mobile -->
+                <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
@@ -30,294 +36,197 @@
     </header>
 
 
-
-    <!-- Hero Section -->
-
-
-
+    <!-- ===================== Hero Section ===================== -->
     <section id="home" class="hero">
-
-
         <div class="hero-content">
-
-            <h2>Welcome to Amit Thakur  <br> This is My Web - Site </h2>
-
-            <p>Your partner in innovative technology solutions </p>
-
-            <a class=" click" href=" https://amitbhallvi.github.io/Profile-Card/" target="_blank"> Click Here To Contact
-                Me </a>
-
-
-            <a href="#contact" class="btn">Get in Touch</a>
+            <h2>Welcome to Amit Bhallavi <br> This is My Web - Site</h2>
+            <p>Your partner in innovative technology solutions</p>
+            <div class="hero-buttons">
+                <a class="click" href="https://amit-info.vercel.app/" target="_blank">
+                    Click Here To Contact Me
+                </a>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
         </div>
-
-
     </section>
 
 
+    <!-- ===================== Projects Section ===================== -->
     <section id="projects" class="projects">
 
         <div class="heading-h1">
             <h1>PROJECTS</h1>
-            <h2> Built Brand-Themed Web Sections  Created sleek, responsive components showcasing global brands like  Netflix, Apple, PhonePe, and Xbox </h2>
+            <h2>Built Brand-Themed Web Sections — Created sleek, responsive components showcasing global brands like
+                Netflix, Apple, PhonePe, and Xbox</h2>
         </div>
 
-        <div class="p-1">
-            <a href=" https://amitbhallvi.github.io/netflix-clone/ " target="_blank"> <img src="assets/NETFLIX.png"
-                    alt=" Netflix Project image "></a>
+        <div class="projects-grid">
+
+
+
+            <div class="project-card">
+                <a href="https://apple-vision-pro-phi.vercel.app/" target="_blank">
+                    <img src="assets/APPLE LOGO.png" alt="Apple Vision Pro Project">
+                </a>
+            </div>
+
+            <div class="project-card dark-bg">
+                <a href="https://phone-pay-clone-web-site.vercel.app/" target="_blank">
+                    <img src="assets/phone pay logo.svg" alt="PhonePe Project">
+                </a>
+            </div>
+
+            <div class="project-card white-bg">
+                <a href="https://microsoft-x-box-black.vercel.app/" target="_blank">
+                    <img src="assets/X- BOX.png" alt="Xbox Project">
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://netflixui-nine.vercel.app/" target="_blank">
+                    <img src="assets/NETFLIX.png" alt="Netflix Project">
+                </a>
+            </div>
+
+
+
 
         </div>
-        <div class="p-2">
-
-            <a href=" https://amitbhallvi.github.io/apple-vision-pro/ " target="_blank"> <img
-                    src="assets/APPLE LOGO.png" alt=" Apple Vision Pro Project image "> </a>
-
-
-        </div>
-        <div class="p-3">
-            <a href=" https://amitbhallvi.github.io/Phone-Pay-clone-Web-site/ " target="_blank"> <img
-                    src="assets/phone pay logo.svg" alt=" Phone Pay Project image "></a>
-
-
-        </div>
-        <div class="p-4">
-            <a href=" https://amitbhallvi.github.io/Microsoft-X-box/ " target="_blank"> <img src="assets/X- BOX.png"
-                    alt=" X -  BOX  Project image "></a>
-
-
-
-        </div>
-
-
-
-
-
-     <div>. <h1> THIS IS A MY WEB SITE </h1>   </div>
-
     </section>
+
+
+    <!-- ===================== Dribbble Projects Section ===================== -->
     <div class="projects-01">
-                <div class="heading-h2">
-            <h1>🚀 Crafted a Dribbble-Inspired UI Dashboard <br><p>💡 I recreated a sleek Dribbble UI dashboard that showcases various landing page projects, from product displays to designer portfolios.</p></h1>
-            
+
+        <div class="heading-h2">
+            <h1>🚀 Crafted a Dribbble-Inspired UI Dashboard
+                <p>💡 I recreated a sleek Dribbble UI dashboard that showcases various landing page projects, from
+                    product displays to designer portfolios.</p>
+            </h1>
         </div>
 
+        <div class="dribbble-grid">
 
-        <div class="p-5">
-            <a href=" https://amitbhallvi.github.io/chromo-task-/ " target="_blank"> <img src="assets/Dribbble_logo.png"
-                    alt=" Dribbble - 01  Project image "></a>
+            <div class="dribbble-card">
+                <a href="https://chromo-task.vercel.app/" target="_blank">
+                    <img src="assets/Dribbble_logo.png" alt="Dribbble - ChronoTask">
+                </a>
+            </div>
 
+            <div class="dribbble-card">
+                <a href="https://lamp-product-dribbble.vercel.app/" target="_blank">
+                    <img src="assets/Dribbble_logo_LAMP.png" alt="Dribbble - Lamp">
+                </a>
+            </div>
 
+            <div class="dribbble-card">
+                <a href="https://beauty-product-landing-page-dribbbl-azure.vercel.app/" target="_blank">
+                    <img src="assets/Dribbble_logo_beauty products.png" alt="Dribbble - Beauty Products">
+                </a>
+            </div>
 
-        </div>
-        <div class="p-6">
-            <a href="https://amitbhallvi.github.io/Lamp-Product--Dribbble/" target="_blank"> <img
-                    src="assets/Dribbble_logo_LAMP.png" alt=" Dribbble - 02  Project image "></a>
+            <div class="dribbble-card">
+                <a href="https://dribble-scooter-page.vercel.app/" target="_blank">
+                    <img src="assets/Dribbble_logo_scooter.png" alt="Dribbble - Scooter">
+                </a>
+            </div>
 
+            <div class="dribbble-card">
+                <a href="https://freelancer-portfolio-dribbble-page.vercel.app/" target="_blank">
+                    <img src="assets/Dribbble_logo_Freelancer.png" alt="Dribbble - Freelancer">
+                </a>
+            </div>
 
-
-        </div>
-        <div class="p-7">
-
-            <a href="  https://amitbhallvi.github.io/Beauty-Product-Landing-Page---Dribbble/" target="_blank"> <img
-                    src="assets/Dribbble_logo_beauty products.png" alt=" Dribbble - 03  Project image "></a>
-
-
-
-        </div>
-        <div class="p-8">
-            <a href="   https://amitbhallvi.github.io/Dribble-Scooter-page/" target="_blank"> <img
-                    src="assets/Dribbble_logo_scooter.png" alt=" Dribbble - 03  Project image "></a>
-
-
-
-        </div>
-        <div class="p-9">
-            <a href="  https://amitbhallvi.github.io/Freelancer-Portfolio---Dribbble-page/ " target="_blank"> <img
-                    src="assets/Dribbble_logo_Freelancer.png" alt=" Dribbble - 03  Project image "></a>
-
-
-
-        </div>
-        <div class="p-10">
-            <a href="  https://amitbhallvi.github.io/Dribbble-Discover-the-world-s-top-designers-Login-page/ "
-                target="_blank"> <img src="assets/Dribbble_logo_World top.png" alt=" Dribbble - 03  Project image "></a>
-
+            <div class="dribbble-card">
+                <a href="https://dribbble-discover-the-world-s-top-d.vercel.app/" target="_blank">
+                    <img src="assets/Dribbble_logo_World top.png" alt="Dribbble - World Top Designers">
+                </a>
+            </div>
 
         </div>
-
-
-
-
-    </div>
-    <div class="p-11">
-
-        <a href="  https://amitbhallvi.github.io/Figma-HooBook/ " target="_blank"> <img
-                src="assets/figma-logo-tech-companies-thumbnail-removebg-preview.png"
-                alt=" Dribbble - 03  Project image "></a>
-
-
-
-
-
     </div>
 
 
-
-
-
-
-    <div class="p-12">
-
-
-    </div>
-    <div class="p-13">
-
-
-    </div>
-    <div class="p-14">
-
-
-    </div>
-    <div class="p-15">
-
-
-    </div>
-    <div class="p-16">
-
-
-    </div>
-    <div class="p-17">
-
-
-    </div>
-    <div class="p-18">
-
-
-    </div>
-    <div class="p-19">
-
-
-    </div>
-    <div class="p-20">
-
-
-    </div>
-    <div class="p-21">
-
-
-    </div>
-    <div class="p-22">
-
-
-    </div>
-    <div class="p-23">
-
-
-    </div>
-    <div class="p-24">
-
-
-    </div>
-    <div class="p-25">
-
-
-    </div>
-    <div class="p-26">
-
-
+    <!-- ===================== Figma Section ===================== -->
+    <div class="figma-section">
+        <a href="https://figma-hoo-book.vercel.app/" target="_blank">
+            <img src="assets/figma-logo-tech-companies-thumbnail-removebg-preview.png" alt="Figma - HooBook">
+        </a>
     </div>
 
 
-    <!-- About Us Section -->
-
-
-
-
+    <!-- ===================== About Section ===================== -->
     <section id="about" class="about">
         <h2>About Us</h2>
         <p>We specialize in web and mobile application development, providing solutions tailored to your business needs.
         </p>
-
     </section>
 
 
-
-
-    <!-- Services Section -->
-
-
-
-
+    <!-- ===================== Services Section ===================== -->
     <section id="services" class="services">
-        <h2> [ Skills and  Learning ] </h2>
+        <h2>[ Skills and Learning ]</h2>
 
+        <div class="services-grid">
 
-        <div class="service-card">
-            <h3>Web Development</h3>
-            <p>Build dynamic websites to improve your business online presence.</p>
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Build dynamic websites to improve your business online presence.</p>
+            </div>
+
+            <div class="service-card1">
+                <h3>Mobile App Development</h3>
+                <p>Design and develop mobile apps for both Android and iOS.</p>
+            </div>
+
+            <div class="service-card2">
+                <h3>Cloud Solutions</h3>
+                <p>Deploy your business to the cloud for scalability and performance.</p>
+            </div>
+
         </div>
-
-
-        <div class="service-card1">
-            <h3>Mobile App Development</h3>
-            <p>Design and develop mobile apps for both Android and iOS.</p>
-        </div>
-
-        <div class="service-card2">
-            <h3>Cloud Solutions</h3>
-            <p>Deploy your business to the cloud for scalability and performance.</p>
-        </div>
-
-
     </section>
 
 
-
-
-    <!-- Contact Form -->
-
-
+    <!-- ===================== Contact Section ===================== -->
     <section id="contact" class="contact">
-
-
         <h2>Contact Us</h2>
-
-
         <form action="#" method="POST">
-
-
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
 
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
 
             <button type="submit" class="btn">Send Message</button>
-
         </form>
-
-
     </section>
 
 
-    <!-- Footer -->
-
-
+    <!-- ===================== Footer ===================== -->
     <footer>
-
-        <p>&copy; 2025 AMIT INFOTECH by ®️ Amit Thakur Hey ✌️Nice to Meet You. All rights reserved.</p>
-
+        <p>&copy; 2025 AMIT INFO.CV by ®️ Amit Bhallavi Hey ✌️ Nice to Meet You. All rights reserved.</p>
     </footer>
 
 
+    <!-- ===================== Hamburger JS ===================== -->
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('open');
+        }
 
-
-
+        // Close menu when a link is clicked (mobile)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-links').classList.remove('open');
+            });
+        });
+    </script>
 
 </body>
-
 
 </html>
